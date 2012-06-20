@@ -1,6 +1,6 @@
 ## Deployment / Installation
 
-1. Configure your database via `config/database.template.yml`. Don't forget to rename it to `database.yml`
+1. Configure the database connection via `config/database.yml`.
 2. Run `bundle install`
 3. Run `bundle exec rake db:create RAILS_ENV=production` to create the database
 4. Create the necessary tables by running `bundle exec rake iqvoc:db:migrate_all RAILS_ENV=production`
